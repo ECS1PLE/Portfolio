@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [setIndex] = useState(1);
-  const toRotate = ["Web Developer"];
+  const toRotate = [];
   const period = 2000;
 
   const tick = useCallback(() => {
@@ -67,7 +67,7 @@ export const Banner = () => {
                     Добро пожаловать в мое фортфолио!
                   </span>
                   <h1>
-                    {`Привет! Это ECS1PLE`}{" "}
+                    {`Привет! Это ECS1PLE Web Developer`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
